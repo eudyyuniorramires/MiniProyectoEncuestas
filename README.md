@@ -240,5 +240,5 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ---
   
-🔗 **Repositorio**: https://github.com/tu-usuario/sistema-analisis-etl  
+🔗 **Repositorio**: https://github.com/eudyyuniorramires/sistema-analisis-etl  
 📅 **Última actualización**: Septiembre 2025
