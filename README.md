@@ -237,11 +237,6 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 - **Eudy Yunior Lorenzo Ramirez** - *Desarrollo inicial* - [TuGitHub](https://github.com/eudyyuniorramires)
 
-## 🙏 Agradecimientos
-
-- Proyecto desarrollado para análisis de datos de encuestas
-- Inspirado en mejores prácticas de pipelines ETL
-- Documentación siguiendo estándares de la industria
 
 ---
   
