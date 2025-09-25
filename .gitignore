@@ -1,0 +1,182 @@
+# ======================================================================
+# .gitignore - Sistema de Análisis de Encuestas
+# ======================================================================
+# Archivos y carpetas a ignorar en el control de versiones
+
+# ======================================================================
+# ARCHIVOS DEL SISTEMA OPERATIVO
+# ======================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS  
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# ======================================================================
+# ENTORNOS VIRTUALES DE PYTHON
+# ======================================================================
+venv/
+env/
+ENV/
+.venv/
+.env/
+pipenv/
+
+# ======================================================================
+# ARCHIVOS DE PYTHON
+# ======================================================================
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ======================================================================
+# EDITORES E IDEs
+# ======================================================================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ======================================================================
+# ARCHIVOS DE CONFIGURACIÓN SENSIBLES
+# ======================================================================
+# Archivos de configuración con credenciales
+config.ini
+settings.py
+secrets.json
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Archivos de conexión a BD (si los hubiera)
+connection_strings.txt
+database_passwords.txt
+
+# ======================================================================
+# ARCHIVOS DE DATOS SENSIBLES
+# ======================================================================
+# Datos reales de producción (mantener solo datos de ejemplo)
+data/real_*.csv
+data/prod_*.csv
+data/production/
+
+# Archivos de backup de base de datos
+*.bak
+*.sql.backup
+database_backup/
+
+# ======================================================================
+# ARCHIVOS DE LOGS Y TEMPORALES
+# ======================================================================
+# Logs del pipeline ETL
+logs/
+*.log
+etl_*.log
+pipeline_*.log
+
+# Archivos temporales
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Archivos de procesamiento
+processing/
+output/
+results/
+
+# ======================================================================
+# DOCUMENTACIÓN GENERADA
+# ======================================================================
+# Documentación auto-generada
+docs/_build/
+site/
+
+# ======================================================================
+# ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# ======================================================================
+# Archivos de configuración específicos del usuario
+user_config.py
+my_settings.ini
+
+# Archivos de pruebas locales
+test_data/
+sandbox/
+experiments/
+
+# ======================================================================
+# NOTAS IMPORTANTES
+# ======================================================================
+# Los siguientes archivos SÍ se incluyen en el repositorio:
+# ✅ data/*.csv (datos de ejemplo)
+# ✅ scripts/*.py (código del pipeline)
+# ✅ database/*.sql (scripts de creación)
+# ✅ docs/*.md (documentación)
+# ✅ README.md
+# ✅ requirements.txt
+# ✅ LICENSE (si existe)
