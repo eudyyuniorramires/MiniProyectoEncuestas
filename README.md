@@ -235,7 +235,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 👥 Autores
 
-- **Eudy Yunior Lorenzo Ramirez** - *Desarrollo inicial* - [TuGitHub](https://github.com/eudyyuniorramires)
+- **Eudy Yunior Lorenzo Ramirez** - *Desarrollo inicial* - (https://github.com/eudyyuniorramires)
 
 
 ---
